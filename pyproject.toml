@@ -13,6 +13,9 @@ langchain = "^0.1.9"
 duckduckgo-search = "^4.5.0"
 
 
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
