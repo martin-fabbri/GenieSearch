@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "geniesearch"
+version = "0.1.0"
+description = "Your AI research assistant that magically compiles comprehensive insights from the web, answering queries with depth and precision."
+authors = ["martin-fabbri <martin.fabbri.a@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain-community = "^0.0.24"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
