@@ -5,25 +5,15 @@ description = "Your AI research assistant that magically compiles comprehensive 
 authors = ["martin-fabbri <martin.fabbri.a@gmail.com>"]
 license = "Apache 2.0"
 readme = "README.md"
-packages = [
-    { include = "app" },
-]
 
 [tool.poetry.dependencies]
-python = "^3.11"
-uvicorn = "^0.23.2"
-langserve = {extras = ["server"], version = ">=0.0.30"}
-pydantic = "<2"
+python = "^3.10"
 langchain-community = "^0.0.24"
 langchain = "^0.1.9"
 duckduckgo-search = "^4.5.0"
-requests = "^2.31.0"
-beautifulsoup4 = "^4.12.3"
-python-dotenv = "^1.0.1"
 
 
 [tool.poetry.group.dev.dependencies]
-langchain-cli = ">=0.0.15"
 ipykernel = "^6.29.3"
 
 [build-system]
