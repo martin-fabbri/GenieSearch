@@ -18,3 +18,9 @@ def scrape_url(url: str):
         print(e)    
 
     return ""
+
+def collapse_list_of_lists(list_of_lists):
+    content = []
+    for l in list_of_lists:
+        content.append("\n\n".join(l))
+    return "\n\n".join(content)

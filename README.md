@@ -63,6 +63,25 @@ docker build . -t my-langserve-app
 If you tag your image with something other than `my-langserve-app`,
 note it for use in the next step.
 
+### Running Playground App With Poetry
+
+- Todo: Configure Poetry to create .venv inside the project folder
+- Todo: Create virtual environment with Poetry
+- Todo: Poetry add dependencies
+- Todo: Poetry add dev-dependencies ("langchain-cli[serve]" "langserve[all]")
+
+- Create a new LangChain App
+
+```console 
+    $ langchain app new .
+```    
+
+- Install dependencies
+    $ poetry install
+
+- Run:
+    $ poetry run langchain serve 
+
 ### Running the Image Locally
 
 To run the image, you'll need to include any environment variables
